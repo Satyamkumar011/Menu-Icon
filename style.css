@@ -1,0 +1,123 @@
+/* 
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', ;
+    font-weight: 700;
+    
+}
+ */
+
+.btn_one{
+    position: absolute;
+    left: 20px;
+    font-size:30px
+}
+.main_box{
+    height: 100vh;
+    background-image: url(15202.jpg);
+    background-size: cover;
+}
+
+.side_menu_bar{
+     position: absolute;
+    height: 100vh;
+    width: 300px;
+    background-color: rgb(37, 35, 33);
+   
+    left: -300px; 
+    scroll-behavior: auto;
+}
+
+.am{
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.btn_two{
+    position: absolute;
+    right: 2px;
+    line-height: 1;
+    font-size: 30px;
+}
+
+li{
+    margin-top: 70px;
+    padding: 2px 20px;
+}
+
+.menu.am,a,i{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+ i{
+    padding-right: 15px;
+ }
+
+.social_media{
+    position: absolute;
+    
+
+}
+
+.social_media i{
+ 
+ text-decoration: none;   
+ padding-top: 80px;
+ padding-left: 40px ;
+}
+
+
+#checkbox{
+    display: none;
+}
+ .menu li:hover{ 
+     font-size: 35px; 
+ }
+ 
+.social_media a :hover{
+    font-size: 33px;
+    color: #b63131;
+}
+
+.btn_one:hover{
+    font-size: 40px;
+}
+
+.btn_two:hover{
+    font-size: 40px;
+}
+
+#checkbox:checked ~ .side_menu_bar{
+    left: 0;
+}
+
+img{
+    display: flex;
+    position: relative;
+    left: 1300px;
+    height: 200px;
+    width: 200px;
+}
+
+.asd{
+    text-align: center;
+}
+.abc{
+    padding: 40px;
+    font-size: 20px;
+}
+.you{
+    width: 200px;
+    height: auto;
+    border: solid black 5px;
+    
+    
+
+}
+img{
+    position: relative;
+left: 100%;
+   background-size: cover;
+}
